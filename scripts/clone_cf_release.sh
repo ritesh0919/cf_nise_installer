@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-CF_RELEASE_USE_HEAD=${CF_RELEASE_USE_HEAD:-no}
+CF_RELEASE_USE_HEAD=${CF_RELEASE_USE_HEAD:-yes}
 
 ruby_version=`rbenv version | cut -f1 -d" "` # to overwrite .ruby-version
 
